@@ -1,0 +1,36 @@
+{
+  "name": "dsh-asuka-pet-bridge",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "DeepSeek Harness 权限请求桥：把待确认的工具授权转发给明日香桌宠，由桌宠气泡上的「允许 / 拒绝」按钮作答。",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "cordis",
+    "plugin",
+    "approval",
+    "desktop-pet"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.18.1"
+  }
+}

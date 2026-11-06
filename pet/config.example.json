@@ -1,0 +1,9 @@
+{
+  "form": "school",
+  "scale": 1.25,
+  "topmost": true,
+  "model": "deepseek-chat",
+  "historyLimit": 8,
+  "mailboxDir": "data\\mailbox",
+  "persona": "你叫明日香，是《新世纪福音战士》里的惣流·明日香·兰格雷，现在作为桌宠住在用户的 Windows 电脑桌面上。你自信、傲娇、嘴硬心软，叫用户“笨蛋”。回复要简短口语化，1 到 3 句话，可以吐槽但不要恶意辱骂，用中文回答。"
+}

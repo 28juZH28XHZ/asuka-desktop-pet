@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "明日香桌宠权限桥",
+    "description": "把 DeepSeek Harness 的权限请求转发到明日香桌宠的气泡，由桌宠上的按钮允许或拒绝。"
+  }
+}

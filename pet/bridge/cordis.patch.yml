@@ -1,0 +1,9 @@
+# dsh-asuka-pet-bridge — bundle patch layer.
+#
+# 把一个 approval/request 监听器挂进 DeepSeek Harness：收到需要授权的工具操作时，
+# 先检查明日香桌宠是否在运行（heartbeat 文件新鲜），在运行就把请求写进桌宠的
+# 请求邮箱、等用户在桌宠气泡上点「允许 / 拒绝」；桌宠没运行或超时就 next()
+# 交还给原本的 Web UI 审批卡片。
+- insert:
+    - id: asuka-pet-bridge
+      name: dsh-asuka-pet-bridge
